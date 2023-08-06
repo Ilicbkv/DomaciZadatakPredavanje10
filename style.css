@@ -36,9 +36,14 @@
  .larger-text {
     font-size: 30px;
     background-color: white;
+    
   }
 
   .img-1 {
     width: 200px;
     height: 200px;
+  }
+
+  .img-1:hover {
+    opacity: 0.5;
   }

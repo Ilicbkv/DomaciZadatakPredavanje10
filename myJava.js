@@ -30,3 +30,13 @@ function changeBackgroundColor() {
 
 setInterval(changeBackgroundColor, 1000);
 
+const img1 = document.getElementsByClassName('img-1');
+const newImgUrl = 'resursi/do.jpg';
+
+img1.addEventListener('mouseenter', () => {
+    img1.src = newImgUrl;
+});
+
+img1.addEventListener('mouseleave', () => {
+    slika.src = 'resursi/hello.jpg';
+});
